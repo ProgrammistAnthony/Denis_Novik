@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50px;
+    height: 23px;
+    flex-shrink: 0;
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 34px;
+}
+p{
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50px;
+    height: 23px;
+    text-align: center;
+}
+hr{
+    margin-top: 33px;
+    display: block;
+}
+
+
+.container{ 
+    max-width: 940px;
+    margin: 0 auto;
+}
+.container_about_me{
+    
+}
+
+header{
+    margin-top: 33px;
+    position: fixed;
+    /* display: none; */
+    width: 100%;
+   
+}
+
+.burger_menu_flex {
+  
+}
+.burger_menu {
+    display: none;
+}
+
+
+.burger__line {
+    display: block;
+    width: 21px;
+    height: 3px;
+    background-color: #000000;
+    margin-bottom: 4px;
+  }
+
+
+
+.menu {
+}
+
+.menu__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    width: 49px;
+}
+.about {
+    width: 82px;
+}
+.skills {
+    width: 42px;
+}
+.portfolio {
+    width: 72px;
+}
+.contact {
+    width: 72px;
+}
+
+.resume__Denis {
+    margin: 40px 0 0 0;
+    padding-top: 113px;
+}
+.resume__Denis_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.Denis {
+    color: var(--Black, #070707);
+    font-size: 47px;
+    width: 124px;
+    height: 120px;
+}
+.designer {
+    color: var(--Black, #070707);
+    width: 155px;
+    height: 44px;
+    white-space: nowrap;
+}
+
+.img_denis {
+    background-color: #F6F6F6;
+    width: 100%;
+    min-width: 300px;
+    height: 387px;
+}
+
+.img_Denis_Novik{
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container_about_me {
+}
+
+.about_me {
+    margin-top: 100px;
+    background-color: #F6F6F6;
+}
+
+.about_me_box {
+    width: 100%;
+}
+
+.text_about_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.about_box_text {
+    padding: 120px 0;
+}
+
+.text_about {
+    margin-bottom: 50px;
+}
+.my__name {
+    width: 485px;
+    color: black;
+    height: 46px;
+}
+.studying {
+    width: 485px;
+    color: black;
+    height: 46px;
+}
+.ready {
+    width: 485px;
+    color: black;
+    height: 46px;
+}
+
+
+.i_work{
+    width: 228px;
+    height: 24px;
+    color: black;
+    padding: 70px 0 83px 0;
+}
+
+.skills_denis {
+    margin: 100px 0;
+}
+
+.skill_denis_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill_box_flex {
+    display: flex;
+    gap: 90px;
+}
+
+.skil_box_flex_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill_icon {
+    width: 88px;
+    height: 88px;
+}
+.skill_icon_figma{
+    width: 58px;
+    height: 88px; 
+}
+.adobe_photoshop {
+    width: 70px;
+    height: 27px;
+    padding: 24px 0 0 0;
+    font-size: 14px;
+}
+.star {
+    width: 166px;
+    height: 26px;
+    margin-top: 40px;
+    /* при padding исчезает картинка */
+}
+
+
+.portfolio_main {
+    background-color: #F6F6F6;
+}
+
+.div_img_box {
+    width: 100%;
+    min-width: 300px;
+    height: 512px;
+}
+
+
+.portfolio_box {
+    width: 100%;
+}
+
+.portfolio_box_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+}
+
+.portfolio_box_text:hover {
+    color: #828282;
+    cursor: pointer;
+}
+
+
+.portfolio_h1 {
+    width: 132px;
+    height: 43px;
+}
+.portfolio_box_item_1 {
+    padding-top: 112px;
+}
+.portfolio_box_item_2 {
+    padding-top: 100px;
+}
+.portfolio_box_item_3 {
+    padding: 100px 0;
+}
+
+.portfolio_img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+.portfolio_box_text {
+    color: #070707;
+    text-decoration-line: underline;
+    width: 276px;
+    height: 22px;
+}
+
+.footer__contacts {
+}
+.contacts_box {
+    margin: 114px 0 123px 0;
+}
+.contacts_box_item_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contacts_h1 {
+   width: 145px;
+   height: 43px;
+}
+.contacts_p {
+    color: #070707;
+    width: 275px;
+    height: 44px;
+}
+.contacts_btn {
+    display: block;
+    width: 182px;
+    height: 42px;
+    border: none;
+    border-radius: 24px;
+    background-color: #070707;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.contacts_btn:hover{
+    color: #fff;
+    background-color: #393b38;
+}
+.contacts_btn:active{
+    box-shadow: 0px 2px 0px 0px #F6F6F6 inset;
+}
+.contacts_icon_flex {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 62px;
+}
+.instagramm {
+    width: 40px;
+    height: 40px;
+}
+.surface {
+    width: 40px;
+    height: 40px;
+}
+.behance {
+    width: 40px;
+    height: 40px;
+}
+.boll_icon {
+    width: 40px;
+    height: 40px;
+}
+.contacts_p_low {
+    width: 246px;
+    height: 34px;
+    font-size: 14px;
+}
+
+
+.div_nav_menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+}
+
+.container_div_nav_menu{
+    padding: 68px ;
+}
+
+.div_nav_menu_menu__flex_big {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    .div_nav_menu_menu_btn {
+        width: 22px;
+        height: 22px;
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+        order: 1;
+    }
+
+
+.div_nav_menu_menu_btn:hover svg rect{
+    fill:black;
+}
+
+
+
+    .div_nav_menu_menu_close {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    
+.div_nav_menu_menu__flex {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 68px;
+    
+}
+.home2 {
+    font-family: Gilroy-Bold, sans-serif;
+font-size: 34px;
+}
+.about2 {
+    font-family: Gilroy-Bold, sans-serif;
+font-size: 34px;
+width: 146px;
+}
+.skills2 {
+    font-family: Gilroy-Bold, sans-serif;
+font-size: 34px;
+}
+.portfolio2 {
+    font-family: Gilroy-Bold, sans-serif;
+font-size: 34px;
+}
+.contact2 {
+    font-family: Gilroy-Bold, sans-serif;
+font-size: 34px;
+}
+
+.d-none{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+   .container{
+    margin: 0 60px;
+   }
+}
+
+@media screen and (max-width: 855px) {
+    .skill_box_flex{
+        flex-direction: column;
+    }
+    .menu__flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px
+    }
+    .resume__Denis_flex{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .div_img_box{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+.container_header{
+    min-width: 300px;
+}
+header{
+    margin: 0 60px 0;
+    display: none;
+}
+.my__name{
+    width: 340px;
+}
+.studying{
+    width: 340px;
+}
+.ready{
+    width: 500px;
+}
+.about_me_box{
+    padding-left: 50px;
+}
+.text_about_flex{
+    gap: 75px;
+
+}
+.text_about_flex{
+    align-items: flex-end;
+    padding-left: 250px;
+}
+
+.ready{
+    width: 340px;
+}
+.studying{
+    padding-top: 25px;
+}
+
+.contacts_icon_flex{
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.img_denis {
+    height: 142px;
+}
+.div_img_box{
+    height: 200px;
+}
+.about_box_text{
+    padding: 120px 0;
+}
+.menu__flex {
+    margin-top: 30px;
+}
+
+
+
+.resume__Denis{
+    padding: 0;
+}
+
+.burger_menu_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger_menu {
+    display: block;
+}
+.burger_menu_fixed {
+    position: fixed;
+    right: 60px;
+}
+
+}
